@@ -1,0 +1,74 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ComputingFrequencies	ComputingFrequencies.cpp	/^vector<unsigned int> ComputingFrequencies(string &sequence, unsigned int k)$/;"	f
+FINDORI_H	findori/findori.h	2;"	d
+Genome	PatternCount.cpp	/^Genome::Genome(string& genome)$/;"	f	class:Genome
+Genome	PatternCount.cpp	/^Genome::Genome(unsigned int length)$/;"	f	class:Genome
+Genome	PatternCount.cpp	/^class Genome$/;"	c	file:
+HAMMING_H	week2/hamming.h	2;"	d
+MyRng	PatternCount.cpp	/^    typedef mt19937 MyRng;$/;"	t	class:Genome	file:
+NEIGHBORS_H	week2/neighbors.h	2;"	d
+NumberToPattern	NumberToPatternFAST.cpp	/^string NumberToPattern(int64_t number, unsigned int num_digits)$/;"	f
+PatternToNumber	PatternToNumber.cpp	/^PatternToNumber::PatternToNumber(int length)$/;"	f	class:PatternToNumber
+PatternToNumber	PatternToNumber.cpp	/^class PatternToNumber$/;"	c	file:
+PatternToNumber	PatternToNumberFAST.cpp	/^int64_t PatternToNumber(string pattern)$/;"	f
+PatternToNumber	PatternToNumberSLOW.cpp	/^unsigned int PatternToNumber(char *pattern, unsigned int length)$/;"	f
+SKEW_H	findori/skew.h	2;"	d
+SymbolToNumber	PatternToNumber.cpp	/^unsigned int SymbolToNumber(const char &c)$/;"	f
+alphabet	PatternCount.cpp	/^    string alphabet = "ACGT";$/;"	m	class:Genome	file:
+alphabet	PatternToNumberSLOW.cpp	/^char alphabet[] = "ACGT";$/;"	v
+approximate_pattern_count	week2/frequent_words_with_mismatch.cpp	/^void approximate_pattern_count(const unsigned int k)$/;"	f
+clump_finder	ClumpFinding.cpp	/^map<string, unsigned int> clump_finder(string &genome,  unsigned int &k,$/;"	f
+complement	PatternCount.cpp	/^char Genome::complement(char& c)$/;"	f	class:Genome
+complement	ReverseComplement.cpp	/^char complement(char& c)$/;"	f
+equal	PatternToNumberSLOW.cpp	/^bool equal(int *arr1, int *arr2, unsigned int length)$/;"	f
+find_min	findori/findori.cpp	/^vector<int> find_min(vector<int> my_skew)$/;"	f
+genome	PatternCount.cpp	/^    string genome;$/;"	m	class:Genome	file:
+get_all_words	ComputingFrequencies.cpp	/^map<string, unsigned int> get_all_words(int length)$/;"	f
+get_all_words	NumberToPattern.cpp	/^map<int, string> get_all_words(int length)$/;"	f
+get_genome	PatternCount.cpp	/^string Genome::get_genome()$/;"	f	class:Genome
+get_length	PatternCount.cpp	/^unsigned int Genome::get_length()$/;"	f	class:Genome
+hamming_distance	week2/hamming.cpp	/^unsigned int hamming_distance(string &pattern1, string &pattern2)$/;"	f
+hamming_distance	week2/neighbors.cpp	/^unsigned int hamming_distance(const string &pattern1, const string &pattern2)$/;"	f
+head	week2/neighbors.cpp	/^string head(const string& pattern) { return pattern.substr(0,1); }$/;"	f
+initialize	PatternCount.cpp	/^void Genome::initialize()$/;"	f	class:Genome
+kmers	ClumpFinding.cpp	/^map<string, unsigned int> kmers(unsigned int k, string &sequence)$/;"	f
+length	PatternCount.cpp	/^    unsigned int length;$/;"	m	class:Genome	file:
+length	PatternToNumber.cpp	/^    unsigned int length;$/;"	m	class:PatternToNumber	file:
+main	Base4To10.cpp	/^int main()$/;"	f
+main	ClumpFinding.cpp	/^int main(int argc, char** argv)$/;"	f
+main	ComputingFrequencies.cpp	/^int main(int argc, char** argv)$/;"	f
+main	NumberToPattern.cpp	/^int main(int argc, char **argv)$/;"	f
+main	NumberToPatternFAST.cpp	/^int main(int argc, char **argv)$/;"	f
+main	PatternCount.cpp	/^int main(int argc,  char **argv)$/;"	f
+main	PatternToNumber.cpp	/^int main()$/;"	f
+main	PatternToNumberFAST.cpp	/^int main()$/;"	f
+main	PatternToNumberSLOW.cpp	/^int main()$/;"	f
+main	ReverseComplement.cpp	/^int main(int argc, char** argv)$/;"	f
+main	StartingPositions.cpp	/^int main(int argc, char **argv)$/;"	f
+main	findori/main.cpp	/^int main(int argc, char **argv)$/;"	f
+main	test.cpp	/^int main()$/;"	f
+main	week2/main.cpp	/^int main(int argc, char **argv)$/;"	f
+max_of_set	PatternCount.cpp	/^unsigned int Genome::max_of_set(set<unsigned int> &my_set)$/;"	f	class:Genome
+most_popular_k_mers	PatternCount.cpp	/^vector<string> Genome::most_popular_k_mers(unsigned int k)$/;"	f	class:Genome
+my_rng	PatternCount.cpp	/^    MyRng my_rng;$/;"	m	class:Genome	file:
+neighbors	week2/neighbors.cpp	/^vector<string> neighbors(const string& pattern, unsigned int d)$/;"	f
+operator ()	PatternToNumber.cpp	/^int PatternToNumber::operator()(string pattern)$/;"	f	class:PatternToNumber
+patternToNumber	PatternToNumber.py	/^def patternToNumber(pattern):$/;"	f
+pattern_counter	PatternCount.cpp	/^unsigned int Genome::pattern_counter(string pattern)$/;"	f	class:Genome
+random_letter	PatternCount.cpp	/^char Genome::random_letter()$/;"	f	class:Genome
+rd	PatternCount.cpp	/^    random_device rd;$/;"	m	class:Genome	file:
+reverse_complement	PatternCount.cpp	/^string Genome::reverse_complement()$/;"	f	class:Genome
+reverse_complement	ReverseComplement.cpp	/^string reverse_complement(string sequence)$/;"	f
+sequence_to_integer	PatternCount.cpp	/^unsigned int sequence_to_integer(string sequence)$/;"	f
+skew	findori/skew.cpp	/^vector<int> skew(string &genome)$/;"	f
+starting_positions	PatternCount.cpp	/^vector<unsigned int> Genome::starting_positions(string& sequence)$/;"	f	class:Genome
+starting_positions	StartingPositions.cpp	/^vector<unsigned int> starting_positions(string sequence, string genome)$/;"	f
+tail	week2/neighbors.cpp	/^string tail(const string& pattern) { return pattern.substr(1, pattern.size()); }$/;"	f
+unif	PatternCount.cpp	/^    uniform_int_distribution<unsigned int> unif;$/;"	m	class:Genome	file:
+words	PatternToNumber.cpp	/^    map<string, int> words;$/;"	m	class:PatternToNumber	file:
+words_index	PatternCount.cpp	/^map<string, unsigned int> words_index(unsigned int k)$/;"	f
