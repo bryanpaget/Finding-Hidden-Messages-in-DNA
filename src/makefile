@@ -1,0 +1,2 @@
+greedy_make: MedianString.cpp MedianString.h Hamming.cpp Hamming.h MotifEnumeration.cpp MotifEnumeration.h GreedyMotifSearch.cpp GreedyMotifSearch.h  Entropy.cpp Entropy.h Neighborhood.cpp Neighborhood.h Greedy.cpp Greedy.h
+	g++ -o Greedy MedianString.cpp MedianString.h Hamming.cpp Hamming.h MotifEnumeration.cpp MotifEnumeration.h GreedyMotifSearch.cpp GreedyMotifSearch.h  Entropy.cpp Entropy.h Neighborhood.cpp Neighborhood.h Greedy.cpp Greedy.h -I.
